@@ -1,4 +1,0 @@
-sphinx
-folium
-nbconvert
-nbsphinx

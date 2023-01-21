@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>Folium &#8212; Folium 0.14.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/f6.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Installing" href="installing.html" />
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="installing.html" title="Installing"
+             accesskey="N">next</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">Folium 0.14.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Folium</a></li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="#">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">Folium</a><ul>
+<li><a class="reference internal" href="#python-data-leaflet-js-maps">Python data, leaflet.js maps</a><ul>
+<li><a class="reference internal" href="#concepts">Concepts</a></li>
+<li><a class="reference internal" href="#contents">Contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="installing.html"
+                          title="next chapter">Installing</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/index.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="folium">
+<h1>Folium<a class="headerlink" href="#folium" title="Permalink to this heading">¶</a></h1>
+<img alt="_images/folium_logo.jpg" src="_images/folium_logo.jpg" />
+<section id="python-data-leaflet-js-maps">
+<h2>Python data, leaflet.js maps<a class="headerlink" href="#python-data-leaflet-js-maps" title="Permalink to this heading">¶</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">folium</span></code> builds on the data wrangling strengths of the Python ecosystem and
+the mapping strengths of the <code class="docutils literal notranslate"><span class="pre">leaflet.js</span></code> library.
+Manipulate your data in Python,
+then visualize it in on a Leaflet map via <code class="docutils literal notranslate"><span class="pre">folium</span></code>.</p>
+<section id="concepts">
+<h3>Concepts<a class="headerlink" href="#concepts" title="Permalink to this heading">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">folium</span></code> makes it easy to visualize data that’s been manipulated in Python on an interactive leaflet map.
+It enables both the binding of data to a map for <code class="docutils literal notranslate"><span class="pre">choropleth</span></code> visualizations
+as well as passing rich vector/raster/HTML visualizations as markers on the map.</p>
+<p>The library has a number of built-in tilesets from OpenStreetMap,
+Mapbox, and Stamen, and supports custom tilesets with Mapbox or Cloudmade API keys.
+<code class="docutils literal notranslate"><span class="pre">folium</span></code> supports both Image, Video, GeoJSON and TopoJSON overlays.</p>
+</section>
+<section id="contents">
+<h3>Contents<a class="headerlink" href="#contents" title="Permalink to this heading">¶</a></h3>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="installing.html">Installing</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="installing.html#requirements">Requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installing.html#installation">Installation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="flask.html">Using folium with flask</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modules.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">folium</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.folium.GlobalSwitches"><code class="docutils literal notranslate"><span class="pre">GlobalSwitches</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.folium.Map"><code class="docutils literal notranslate"><span class="pre">Map</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.folium.Map.choropleth"><code class="docutils literal notranslate"><span class="pre">Map.choropleth()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.folium.Map.default_css"><code class="docutils literal notranslate"><span class="pre">Map.default_css</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.folium.Map.default_js"><code class="docutils literal notranslate"><span class="pre">Map.default_js</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.folium.Map.fit_bounds"><code class="docutils literal notranslate"><span class="pre">Map.fit_bounds()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.folium.Map.keep_in_front"><code class="docutils literal notranslate"><span class="pre">Map.keep_in_front()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.folium.Map.render"><code class="docutils literal notranslate"><span class="pre">Map.render()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.folium.Map.show_in_browser"><code class="docutils literal notranslate"><span class="pre">Map.show_in_browser()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="modules.html#module-folium.map"><code class="xref py py-mod docutils literal notranslate"><span class="pre">map</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.map.CustomPane"><code class="docutils literal notranslate"><span class="pre">CustomPane</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.map.FeatureGroup"><code class="docutils literal notranslate"><span class="pre">FeatureGroup</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.map.FitBounds"><code class="docutils literal notranslate"><span class="pre">FitBounds</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.map.Icon"><code class="docutils literal notranslate"><span class="pre">Icon</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.map.Icon.color_options"><code class="docutils literal notranslate"><span class="pre">Icon.color_options</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.map.Layer"><code class="docutils literal notranslate"><span class="pre">Layer</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.map.LayerControl"><code class="docutils literal notranslate"><span class="pre">LayerControl</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.map.LayerControl.render"><code class="docutils literal notranslate"><span class="pre">LayerControl.render()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.map.LayerControl.reset"><code class="docutils literal notranslate"><span class="pre">LayerControl.reset()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.map.Marker"><code class="docutils literal notranslate"><span class="pre">Marker</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.map.Marker.render"><code class="docutils literal notranslate"><span class="pre">Marker.render()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.map.Popup"><code class="docutils literal notranslate"><span class="pre">Popup</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.map.Popup.render"><code class="docutils literal notranslate"><span class="pre">Popup.render()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.map.Tooltip"><code class="docutils literal notranslate"><span class="pre">Tooltip</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.map.Tooltip.parse_options"><code class="docutils literal notranslate"><span class="pre">Tooltip.parse_options()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.map.Tooltip.valid_options"><code class="docutils literal notranslate"><span class="pre">Tooltip.valid_options</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="modules.html#module-folium.vector_layers"><code class="xref py py-mod docutils literal notranslate"><span class="pre">Vector</span> <span class="pre">Layers</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.vector_layers.BaseMultiLocation"><code class="docutils literal notranslate"><span class="pre">BaseMultiLocation</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.vector_layers.Circle"><code class="docutils literal notranslate"><span class="pre">Circle</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.vector_layers.CircleMarker"><code class="docutils literal notranslate"><span class="pre">CircleMarker</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.vector_layers.PolyLine"><code class="docutils literal notranslate"><span class="pre">PolyLine</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.vector_layers.Polygon"><code class="docutils literal notranslate"><span class="pre">Polygon</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.vector_layers.Rectangle"><code class="docutils literal notranslate"><span class="pre">Rectangle</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.vector_layers.path_options"><code class="docutils literal notranslate"><span class="pre">path_options()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="modules.html#module-folium.raster_layers"><code class="xref py py-mod docutils literal notranslate"><span class="pre">Raster</span> <span class="pre">Layers</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.raster_layers.ImageOverlay"><code class="docutils literal notranslate"><span class="pre">ImageOverlay</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.raster_layers.ImageOverlay.render"><code class="docutils literal notranslate"><span class="pre">ImageOverlay.render()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.raster_layers.TileLayer"><code class="docutils literal notranslate"><span class="pre">TileLayer</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.raster_layers.VideoOverlay"><code class="docutils literal notranslate"><span class="pre">VideoOverlay</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.raster_layers.WmsTileLayer"><code class="docutils literal notranslate"><span class="pre">WmsTileLayer</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="modules.html#module-folium.features"><code class="xref py py-mod docutils literal notranslate"><span class="pre">Extra</span> <span class="pre">Features</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.features.Choropleth"><code class="docutils literal notranslate"><span class="pre">Choropleth</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.features.Choropleth.render"><code class="docutils literal notranslate"><span class="pre">Choropleth.render()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.features.ClickForLatLng"><code class="docutils literal notranslate"><span class="pre">ClickForLatLng</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.features.ClickForMarker"><code class="docutils literal notranslate"><span class="pre">ClickForMarker</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.features.ColorLine"><code class="docutils literal notranslate"><span class="pre">ColorLine</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.features.CustomIcon"><code class="docutils literal notranslate"><span class="pre">CustomIcon</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.features.DivIcon"><code class="docutils literal notranslate"><span class="pre">DivIcon</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.features.GeoJson"><code class="docutils literal notranslate"><span class="pre">GeoJson</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.features.GeoJson.convert_to_feature_collection"><code class="docutils literal notranslate"><span class="pre">GeoJson.convert_to_feature_collection()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.features.GeoJson.find_identifier"><code class="docutils literal notranslate"><span class="pre">GeoJson.find_identifier()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.features.GeoJson.get_geojson_from_web"><code class="docutils literal notranslate"><span class="pre">GeoJson.get_geojson_from_web()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.features.GeoJson.process_data"><code class="docutils literal notranslate"><span class="pre">GeoJson.process_data()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.features.GeoJson.render"><code class="docutils literal notranslate"><span class="pre">GeoJson.render()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.features.GeoJsonDetail"><code class="docutils literal notranslate"><span class="pre">GeoJsonDetail</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.features.GeoJsonDetail.base_template"><code class="docutils literal notranslate"><span class="pre">GeoJsonDetail.base_template</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.features.GeoJsonDetail.render"><code class="docutils literal notranslate"><span class="pre">GeoJsonDetail.render()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.features.GeoJsonDetail.warn_for_geometry_collections"><code class="docutils literal notranslate"><span class="pre">GeoJsonDetail.warn_for_geometry_collections()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.features.GeoJsonPopup"><code class="docutils literal notranslate"><span class="pre">GeoJsonPopup</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.features.GeoJsonStyleMapper"><code class="docutils literal notranslate"><span class="pre">GeoJsonStyleMapper</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.features.GeoJsonStyleMapper.get_feature_id"><code class="docutils literal notranslate"><span class="pre">GeoJsonStyleMapper.get_feature_id()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.features.GeoJsonStyleMapper.get_highlight_map"><code class="docutils literal notranslate"><span class="pre">GeoJsonStyleMapper.get_highlight_map()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.features.GeoJsonStyleMapper.get_style_map"><code class="docutils literal notranslate"><span class="pre">GeoJsonStyleMapper.get_style_map()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.features.GeoJsonTooltip"><code class="docutils literal notranslate"><span class="pre">GeoJsonTooltip</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.features.LatLngPopup"><code class="docutils literal notranslate"><span class="pre">LatLngPopup</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.features.RegularPolygonMarker"><code class="docutils literal notranslate"><span class="pre">RegularPolygonMarker</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.features.RegularPolygonMarker.default_js"><code class="docutils literal notranslate"><span class="pre">RegularPolygonMarker.default_js</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.features.TopoJson"><code class="docutils literal notranslate"><span class="pre">TopoJson</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.features.TopoJson.default_js"><code class="docutils literal notranslate"><span class="pre">TopoJson.default_js</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.features.TopoJson.get_bounds"><code class="docutils literal notranslate"><span class="pre">TopoJson.get_bounds()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.features.TopoJson.render"><code class="docutils literal notranslate"><span class="pre">TopoJson.render()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.features.TopoJson.style_data"><code class="docutils literal notranslate"><span class="pre">TopoJson.style_data()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.features.Vega"><code class="docutils literal notranslate"><span class="pre">Vega</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.features.Vega.default_js"><code class="docutils literal notranslate"><span class="pre">Vega.default_js</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.features.Vega.render"><code class="docutils literal notranslate"><span class="pre">Vega.render()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="modules.html#folium.features.VegaLite"><code class="docutils literal notranslate"><span class="pre">VegaLite</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.features.VegaLite.render"><code class="docutils literal notranslate"><span class="pre">VegaLite.render()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="modules.html#folium.features.VegaLite.vegalite_major_version"><code class="docutils literal notranslate"><span class="pre">VegaLite.vegalite_major_version</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="plugins.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">plugins</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium-plugins">Folium plugins</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.AntPath"><code class="docutils literal notranslate"><span class="pre">AntPath</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.AntPath.default_js"><code class="docutils literal notranslate"><span class="pre">AntPath.default_js</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.BeautifyIcon"><code class="docutils literal notranslate"><span class="pre">BeautifyIcon</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.BeautifyIcon.ICON_SHAPE_TYPES"><code class="docutils literal notranslate"><span class="pre">BeautifyIcon.ICON_SHAPE_TYPES</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.BeautifyIcon.default_css"><code class="docutils literal notranslate"><span class="pre">BeautifyIcon.default_css</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.BeautifyIcon.default_js"><code class="docutils literal notranslate"><span class="pre">BeautifyIcon.default_js</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.BoatMarker"><code class="docutils literal notranslate"><span class="pre">BoatMarker</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.BoatMarker.default_js"><code class="docutils literal notranslate"><span class="pre">BoatMarker.default_js</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.CirclePattern"><code class="docutils literal notranslate"><span class="pre">CirclePattern</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.CirclePattern.default_js"><code class="docutils literal notranslate"><span class="pre">CirclePattern.default_js</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.CirclePattern.render"><code class="docutils literal notranslate"><span class="pre">CirclePattern.render()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.Draw"><code class="docutils literal notranslate"><span class="pre">Draw</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.Draw.default_css"><code class="docutils literal notranslate"><span class="pre">Draw.default_css</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.Draw.default_js"><code class="docutils literal notranslate"><span class="pre">Draw.default_js</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.Draw.render"><code class="docutils literal notranslate"><span class="pre">Draw.render()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.DualMap"><code class="docutils literal notranslate"><span class="pre">DualMap</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.DualMap.add_child"><code class="docutils literal notranslate"><span class="pre">DualMap.add_child()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.DualMap.default_js"><code class="docutils literal notranslate"><span class="pre">DualMap.default_js</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.DualMap.fit_bounds"><code class="docutils literal notranslate"><span class="pre">DualMap.fit_bounds()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.DualMap.keep_in_front"><code class="docutils literal notranslate"><span class="pre">DualMap.keep_in_front()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.DualMap.render"><code class="docutils literal notranslate"><span class="pre">DualMap.render()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.FastMarkerCluster"><code class="docutils literal notranslate"><span class="pre">FastMarkerCluster</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.FeatureGroupSubGroup"><code class="docutils literal notranslate"><span class="pre">FeatureGroupSubGroup</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.FeatureGroupSubGroup.default_js"><code class="docutils literal notranslate"><span class="pre">FeatureGroupSubGroup.default_js</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.FloatImage"><code class="docutils literal notranslate"><span class="pre">FloatImage</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.Fullscreen"><code class="docutils literal notranslate"><span class="pre">Fullscreen</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.Fullscreen.default_css"><code class="docutils literal notranslate"><span class="pre">Fullscreen.default_css</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.Fullscreen.default_js"><code class="docutils literal notranslate"><span class="pre">Fullscreen.default_js</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.Geocoder"><code class="docutils literal notranslate"><span class="pre">Geocoder</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.Geocoder.default_css"><code class="docutils literal notranslate"><span class="pre">Geocoder.default_css</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.Geocoder.default_js"><code class="docutils literal notranslate"><span class="pre">Geocoder.default_js</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.GroupedLayerControl"><code class="docutils literal notranslate"><span class="pre">GroupedLayerControl</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.GroupedLayerControl.default_css"><code class="docutils literal notranslate"><span class="pre">GroupedLayerControl.default_css</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.GroupedLayerControl.default_js"><code class="docutils literal notranslate"><span class="pre">GroupedLayerControl.default_js</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.HeatMap"><code class="docutils literal notranslate"><span class="pre">HeatMap</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.HeatMap.default_js"><code class="docutils literal notranslate"><span class="pre">HeatMap.default_js</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.HeatMapWithTime"><code class="docutils literal notranslate"><span class="pre">HeatMapWithTime</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.HeatMapWithTime.default_css"><code class="docutils literal notranslate"><span class="pre">HeatMapWithTime.default_css</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.HeatMapWithTime.default_js"><code class="docutils literal notranslate"><span class="pre">HeatMapWithTime.default_js</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.HeatMapWithTime.render"><code class="docutils literal notranslate"><span class="pre">HeatMapWithTime.render()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.LocateControl"><code class="docutils literal notranslate"><span class="pre">LocateControl</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.LocateControl.default_css"><code class="docutils literal notranslate"><span class="pre">LocateControl.default_css</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.LocateControl.default_js"><code class="docutils literal notranslate"><span class="pre">LocateControl.default_js</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.MarkerCluster"><code class="docutils literal notranslate"><span class="pre">MarkerCluster</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.MarkerCluster.default_css"><code class="docutils literal notranslate"><span class="pre">MarkerCluster.default_css</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.MarkerCluster.default_js"><code class="docutils literal notranslate"><span class="pre">MarkerCluster.default_js</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.MeasureControl"><code class="docutils literal notranslate"><span class="pre">MeasureControl</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.MeasureControl.default_css"><code class="docutils literal notranslate"><span class="pre">MeasureControl.default_css</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.MeasureControl.default_js"><code class="docutils literal notranslate"><span class="pre">MeasureControl.default_js</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.MiniMap"><code class="docutils literal notranslate"><span class="pre">MiniMap</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.MiniMap.default_css"><code class="docutils literal notranslate"><span class="pre">MiniMap.default_css</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.MiniMap.default_js"><code class="docutils literal notranslate"><span class="pre">MiniMap.default_js</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.MousePosition"><code class="docutils literal notranslate"><span class="pre">MousePosition</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.MousePosition.default_css"><code class="docutils literal notranslate"><span class="pre">MousePosition.default_css</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.MousePosition.default_js"><code class="docutils literal notranslate"><span class="pre">MousePosition.default_js</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.PolyLineOffset"><code class="docutils literal notranslate"><span class="pre">PolyLineOffset</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.PolyLineOffset.default_js"><code class="docutils literal notranslate"><span class="pre">PolyLineOffset.default_js</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.PolyLineTextPath"><code class="docutils literal notranslate"><span class="pre">PolyLineTextPath</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.PolyLineTextPath.default_js"><code class="docutils literal notranslate"><span class="pre">PolyLineTextPath.default_js</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.ScrollZoomToggler"><code class="docutils literal notranslate"><span class="pre">ScrollZoomToggler</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.Search"><code class="docutils literal notranslate"><span class="pre">Search</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.Search.default_css"><code class="docutils literal notranslate"><span class="pre">Search.default_css</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.Search.default_js"><code class="docutils literal notranslate"><span class="pre">Search.default_js</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.Search.render"><code class="docutils literal notranslate"><span class="pre">Search.render()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.Search.test_params"><code class="docutils literal notranslate"><span class="pre">Search.test_params()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.SemiCircle"><code class="docutils literal notranslate"><span class="pre">SemiCircle</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.SemiCircle.default_js"><code class="docutils literal notranslate"><span class="pre">SemiCircle.default_js</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.SideBySideLayers"><code class="docutils literal notranslate"><span class="pre">SideBySideLayers</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.SideBySideLayers.default_js"><code class="docutils literal notranslate"><span class="pre">SideBySideLayers.default_js</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.StripePattern"><code class="docutils literal notranslate"><span class="pre">StripePattern</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.StripePattern.default_js"><code class="docutils literal notranslate"><span class="pre">StripePattern.default_js</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.StripePattern.render"><code class="docutils literal notranslate"><span class="pre">StripePattern.render()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.TagFilterButton"><code class="docutils literal notranslate"><span class="pre">TagFilterButton</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.TagFilterButton.default_css"><code class="docutils literal notranslate"><span class="pre">TagFilterButton.default_css</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.TagFilterButton.default_js"><code class="docutils literal notranslate"><span class="pre">TagFilterButton.default_js</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.Terminator"><code class="docutils literal notranslate"><span class="pre">Terminator</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.Terminator.default_js"><code class="docutils literal notranslate"><span class="pre">Terminator.default_js</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.TimeSliderChoropleth"><code class="docutils literal notranslate"><span class="pre">TimeSliderChoropleth</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.TimeSliderChoropleth.default_js"><code class="docutils literal notranslate"><span class="pre">TimeSliderChoropleth.default_js</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.TimestampedGeoJson"><code class="docutils literal notranslate"><span class="pre">TimestampedGeoJson</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.TimestampedGeoJson.default_css"><code class="docutils literal notranslate"><span class="pre">TimestampedGeoJson.default_css</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.TimestampedGeoJson.default_js"><code class="docutils literal notranslate"><span class="pre">TimestampedGeoJson.default_js</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.TimestampedGeoJson.render"><code class="docutils literal notranslate"><span class="pre">TimestampedGeoJson.render()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.TimestampedWmsTileLayers"><code class="docutils literal notranslate"><span class="pre">TimestampedWmsTileLayers</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.TimestampedWmsTileLayers.default_css"><code class="docutils literal notranslate"><span class="pre">TimestampedWmsTileLayers.default_css</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.TimestampedWmsTileLayers.default_js"><code class="docutils literal notranslate"><span class="pre">TimestampedWmsTileLayers.default_js</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#folium.plugins.VectorGridProtobuf"><code class="docutils literal notranslate"><span class="pre">VectorGridProtobuf</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#folium.plugins.VectorGridProtobuf.default_js"><code class="docutils literal notranslate"><span class="pre">VectorGridProtobuf.default_js</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="installing.html" title="Installing"
+             >next</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">Folium 0.14.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Folium</a></li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2013, Rob Story.
+    Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 6.1.3.Theme by <a href="http://github.com/vkvn">vkvn</a>
+    </div>
+  </body>
+</html>
