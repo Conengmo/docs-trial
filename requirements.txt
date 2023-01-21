@@ -1,2 +1,4 @@
 sphinx
 folium
+nbconvert
+nbsphinx
